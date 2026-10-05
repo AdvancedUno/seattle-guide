@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Seattle Tour Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div id="logo">🌲 Seattle Guide</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#reasons">Why Visit</a></li>
+                <li><a href="#spots">Cool Spots</a></li>
+                <li><a href="#schedule">Itinerary</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="dark-btn" type="button">Dark Mode</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h1>Welcome to Seattle!</h1>
+            <p>Seattle is my favorite city in the Pacific Northwest. It sits right on Puget Sound with views of Mount Rainier on clear days, blending city life with the outdoors. It is also famous as the birthplace of grunge music and home to the original Starbucks.</p>
+            <p>Whether you want to try local coffee, hike through evergreen forests, or explore waterfront piers, it is an ideal city for a weekend getaway.</p>
+            
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Space_Needle_2011-07-04.jpg/800px-Space_Needle_2011-07-04.jpg" alt="Space Needle tower on a bright sunny day in Seattle with blue skies">
+            
+            <p><em>The Space Needle was built for the 1962 World's Fair. Read more about its history on <a href="https://en.wikipedia.org/wiki/Space_Needle" target="_blank" rel="noopener noreferrer">Wikipedia</a>.</em></p>
+        </section>
+
+        <section id="reasons">
+            <h2>Why You Should Go</h2>
+            <p>A lot of people think it rains non-stop in Washington, but summers here are sunny, dry, and mild. Here are three big reasons to visit:</p>
+            <ul>
+                <li><strong>Coffee Culture:</strong> Independent roasters and neighborhood cafes sit on almost every corner.</li>
+                <li><strong>Quick Access to Nature:</strong> You can paddleboard on Lake Union in the morning and hike the Cascades by afternoon.</li>
+                <li><strong>Fresh Seafood:</strong> Local wild salmon, Dungeness crab, and hot clam chowder are local staples.</li>
+            </ul>
+        </section>
+
+
+        <section id="spots">
+            <h2>Cool Spots to Check Out</h2>
+            <p>If it is your first trip, visit Pike Place Market to watch the fishmongers throw fish, and walk through the historic lower levels. Neighborhoods like Capitol Hill and Fremont offer local vintage shops, bookstores, and street art.</p>
+            <p>Taking a Washington State Ferry ride to Bainbridge Island is also an easy, low-cost way to get panoramic skyline views directly from the water.</p>
+        </section>
+
+        <section id="schedule">
+            <h2>One-Day Sample Itinerary</h2>
+            <p>Here is a balanced 1-day downtown route hitting major landmarks without rushing.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Activity</th>
+                        <th>Location</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>8:30 AM</td>
+                        <td>Coffee and warm pastries</td>
+                        <td>Pike Place Market</td>
+                    </tr>
+                    <tr>
+                        <td>10:30 AM</td>
+                        <td>Glass art galleries and outdoor gardens</td>
+                        <td>Chihuly Garden and Glass</td>
+                    </tr>
+                    <tr>
+                        <td>12:30 PM</td>
+                        <td>Observation deck panorama</td>
+                        <td>Space Needle</td>
+                    </tr>
+                    <tr>
+                        <td>3:00 PM</td>
+                        <td>Music and pop culture exhibits</td>
+                        <td>Museum of Pop Culture (MoPOP)</td>
+                    </tr>
+                    <tr>
+                        <td>6:00 PM</td>
+                        <td>Seafood dinner by the docks</td>
+                        <td>Seattle Waterfront</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Need More Recommendations?</h2>
+            <p>Send a message if you need personalized trail advice, food picks, or transit tips.</p>
+            <form action="#" method="get">
+                <label for="user-name">Your Name:</label>
+                <input type="text" id="user-name" name="user-name" required>
+                
+                <label for="user-email">Your Email:</label>
+                <input type="email" id="user-email" name="user-email" required>
+                
+                <label for="user-message">What questions do you have?</label>
+                <textarea id="user-message" name="user-message" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Seattle Tour Guide &copy; 2026</p>
+        <p><a href="#about">Back to Top</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
